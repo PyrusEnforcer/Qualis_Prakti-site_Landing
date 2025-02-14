@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | CodeMentor</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../" class="logo">CodeMentor</a>
+            <div class="nav-links">
+                <a href="../">Home</a>
+                <a href="services.html" class="active">Services</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="mentors.html">Our Mentors</a>
+                <a href="../#contact" class="cta-button">Start Learning</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="page-header service-header">
+        <div class="container">
+            <h1 class="glow-text">Transform Your Career</h1>
+            <p class="lead">Choose your path to becoming a professional developer</p>
+            <div class="tech-bubbles">
+                <!-- Dynamic tech bubbles will be added by JS -->
+            </div>
+        </div>
+    </header>
+
+    <section class="service-paths">
+        <div class="container">
+            <div class="path-cards">
+                <div class="path-card" data-path="frontend">
+                    <div class="card-3d-wrapper">
+                        <div class="card-front">
+                            <div class="path-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Frontend Development</h3>
+                            <p>Master modern web interfaces</p>
+                            <div class="tech-stack">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+                            </div>
+                            <button class="flip-btn">Learn More</button>
+                        </div>
+                        <div class="card-back">
+                            <h4>What you'll learn</h4>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Modern JavaScript & TypeScript</li>
+                                <li><i class="fas fa-check"></i> React & Vue.js</li>
+                                <li><i class="fas fa-check"></i> Responsive Design</li>
+                                <li><i class="fas fa-check"></i> State Management</li>
+                            </ul>
+                            <div class="price-tag">From $199/month</div>
+                            <button class="enroll-btn">Start Learning</button>
+                            <button class="flip-btn">Back</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="path-card" data-path="backend">
+                    <div class="card-3d-wrapper">
+                        <div class="card-front">
+                            <div class="path-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h3>Backend Development</h3>
+                            <p>Build robust and scalable server-side applications</p>
+                            <div class="tech-stack">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                            </div>
+                            <button class="flip-btn">Learn More</button>
+                        </div>
+                        <div class="card-back">
+                            <h4>What you'll learn</h4>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Node.js & Express</li>
+                                <li><i class="fas fa-check"></i> Database Design</li>
+                                <li><i class="fas fa-check"></i> API Development</li>
+                                <li><i class="fas fa-check"></i> Server Architecture</li>
+                            </ul>
+                            <div class="price-tag">From $299/month</div>
+                            <button class="enroll-btn">Start Learning</button>
+                            <button class="flip-btn">Back</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="path-card" data-path="fullstack">
+                    <div class="card-3d-wrapper">
+                        <div class="card-front">
+                            <div class="path-icon">
+                                <i class="fas fa-code"></i>
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h3>Full Stack Development</h3>
+                            <p>Become a complete developer with end-to-end expertise</p>
+                            <div class="tech-stack">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                            </div>
+                            <button class="flip-btn">Learn More</button>
+                        </div>
+                        <div class="card-back">
+                            <h4>What you'll learn</h4>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Frontend & Backend Integration</li>
+                                <li><i class="fas fa-check"></i> Full Stack Projects</li>
+                                <li><i class="fas fa-check"></i> Deployment & DevOps</li>
+                                <li><i class="fas fa-check"></i> Performance Optimization</li>
+                            </ul>
+                            <div class="price-tag">From $399/month</div>
+                            <button class="enroll-btn">Start Learning</button>
+                            <button class="flip-btn">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="interactive-roadmap">
+        <div class="container">
+            <h2>Your Learning Journey</h2>
+            <div class="roadmap-wrapper">
+                <div class="roadmap-nav">
+                    <button class="nav-btn active" data-week="1">Week 1-4</button>
+                    <button class="nav-btn" data-week="2">Week 5-8</button>
+                    <button class="nav-btn" data-week="3">Week 9-12</button>
+                </div>
+                <div class="roadmap-content">
+                    <div class="timeline-point active" data-week="1">
+                        <h3>Foundation</h3>
+                        <div class="timeline-details">
+                            <div class="skill-progress">
+                                <div class="skill">
+                                    <span>HTML & CSS</span>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>JavaScript</span>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-point" data-week="2">
+                        <h3>Intermediate</h3>
+                        <div class="timeline-details">
+                            <div class="skill-progress">
+                                <div class="skill">
+                                    <span>React</span>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Node.js</span>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-point" data-week="3">
+                        <h3>Advanced</h3>
+                        <div class="timeline-details">
+                            <div class="skill-progress">
+                                <div class="skill">
+                                    <span>Vue.js</span>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Full Stack</span>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="live-coding">
+        <div class="container">
+            <h2>Live Coding Experience</h2>
+            <div class="code-editor">
+                <div class="editor-header">
+                    <div class="file-tabs">
+                        <button class="file-tab active">index.html</button>
+                        <button class="file-tab">styles.css</button>
+                        <button class="file-tab">script.js</button>
+                    </div>
+                </div>
+                <div class="editor-content">
+                    <pre><code class="language-html">
+<!-- Live code preview here -->
+                    </code></pre>
+                </div>
+                <div class="editor-preview">
+                    <div class="preview-header">
+                        <span>Live Preview</span>
+                        <button class="refresh-btn"><i class="fas fa-sync"></i></button>
+                    </div>
+                    <div class="preview-frame">
+                        <!-- Live preview content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ai-assistant">
+        <div class="container">
+            <h2>AI-Powered Learning Assistant</h2>
+            <div class="chat-interface">
+                <div class="chat-messages">
+                    <!-- Dynamic chat messages -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Ask anything about coding...">
+                    <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="../js/script.js" defer></script>
+    <script>
+        // Tech bubbles animation
+        const techStack = [
+            'React', 'Vue', 'Angular', 'Node.js', 'Python', 'JavaScript',
+            'TypeScript', 'Docker', 'AWS', 'MongoDB', 'GraphQL', 'Git'
+        ];
+
+        function createBubbles() {
+            const container = document.querySelector('.tech-bubbles');
+            techStack.forEach(tech => {
+                const bubble = document.createElement('div');
+                bubble.className = 'tech-bubble';
+                bubble.textContent = tech;
+                bubble.style.setProperty('--delay', `${Math.random() * 2}s`);
+                bubble.style.setProperty('--duration', `${Math.random() * 2 + 2}s`);
+                container.appendChild(bubble);
+            });
+        }
+
+        // Initialize features
+        document.addEventListener('DOMContentLoaded', () => {
+            createBubbles();
+            initializeRoadmap();
+            initializeCodeEditor();
+            initializeAIChat();
+        });
+    </script>
+</body>
+</html> 

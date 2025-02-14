@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeMentor | Web Development & Programming Tutoring</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">CodeMentor</a>
+            <div class="nav-links">
+                <a href="/" class="active">Home</a>
+                <a href="pages/services.html">Services</a>
+                <a href="pages/pricing.html">Pricing</a>
+                <a href="pages/mentors.html">Our Mentors</a>
+                <a href="#contact" class="cta-button">Start Learning</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Master Web Development</h1>
+                <p class="lead">Learn from industry experts through personalized 1-on-1 mentoring sessions</p>
+                <div class="hero-cta">
+                    <a href="#pricing" class="btn-primary">View Plans</a>
+                    <a href="#about" class="btn-secondary">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Students Taught</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Expert Mentors</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" 
+                     alt="Programming student learning code"
+                     width="600" 
+                     height="400">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Why Choose CodeMentor?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Expert Mentors</h3>
+                    <p>Learn from developers with years of industry experience</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>1-on-1 Sessions</h3>
+                    <p>Personalized attention and custom learning paths</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Project-Based</h3>
+                    <p>Build real-world projects for your portfolio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <h2>Technologies You'll Learn</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" 
+                         alt="HTML5" width="50" height="50">
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
+                         alt="CSS3" width="50" height="50">
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                         alt="JavaScript" width="50" height="50">
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
+                         alt="React" width="50" height="50">
+                    <span>React</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-form-wrapper">
+                <h2>Get Started Today</h2>
+                <p class="lead">Ready to begin your coding journey? Let's talk about your goals.</p>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            placeholder="Enter your full name"
+                            required
+                        >
+                        <i class="fas fa-user input-icon"></i>
+                        <div class="error-message"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Enter your email address"
+                            required
+                        >
+                        <i class="fas fa-envelope input-icon"></i>
+                        <div class="error-message"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Interested In</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="frontend">Frontend Development</option>
+                            <option value="backend">Backend Development</option>
+                            <option value="fullstack">Full Stack Development</option>
+                            <option value="mobile">Mobile Development</option>
+                            <option value="ui-ux">UI/UX Design</option>
+                        </select>
+                        <i class="fas fa-chevron-down input-icon"></i>
+                        <div class="error-message"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            placeholder="Tell us about your goals and what you'd like to learn..."
+                            rows="4"
+                            required
+                        ></textarea>
+                        <div class="error-message"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="experience">Experience Level</label>
+                        <select id="experience" name="experience" required>
+                            <option value="">Select your experience level</option>
+                            <option value="beginner">Beginner - New to coding</option>
+                            <option value="intermediate">Intermediate - Some experience</option>
+                            <option value="advanced">Advanced - Professional experience</option>
+                        </select>
+                        <i class="fas fa-code input-icon"></i>
+                        <div class="error-message"></div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">CodeMentor</div>
+                    <p>Expert web development tutoring</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="pages/services.html">Services</a>
+                    <a href="pages/pricing.html">Pricing</a>
+                    <a href="pages/mentors.html">Mentors</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>hello@codementor.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CodeMentor. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html> 

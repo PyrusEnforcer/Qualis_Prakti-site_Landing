@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Mentors | CodeMentor</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../" class="logo">CodeMentor</a>
+            <div class="nav-links">
+                <a href="../">Home</a>
+                <a href="services.html">Services</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="mentors.html" class="active">Our Mentors</a>
+                <a href="../#contact" class="cta-button">Start Learning</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Meet Our Expert Mentors</h1>
+            <p class="lead">Learn from industry professionals with proven track records</p>
+            <div class="expertise-tags">
+                <button class="tag active" data-filter="all">All</button>
+                <button class="tag" data-filter="frontend">Frontend</button>
+                <button class="tag" data-filter="backend">Backend</button>
+                <button class="tag" data-filter="fullstack">Full Stack</button>
+                <button class="tag" data-filter="mobile">Mobile</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="mentors-section">
+        <div class="container">
+            <div class="mentors-grid">
+                <!-- Frontend Mentor -->
+                <article class="mentor-card" data-category="frontend">
+                    <div class="mentor-image">
+                        <img src="https://images.unsplash.com/photo-1596075780750-81249df16d19?w=500&q=80" alt="Emily Chen">
+                        <div class="mentor-badge">
+                            <i class="fas fa-award"></i>
+                            Top Rated
+                        </div>
+                    </div>
+                    <div class="mentor-info">
+                        <div class="mentor-header">
+                            <h3>Emily Chen</h3>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                4.9 (127 reviews)
+                            </span>
+                        </div>
+                        <div class="mentor-title">
+                            <img src="https://www.google.com/favicon.ico" alt="Google" class="company-icon">
+                            Senior Frontend Engineer at Google
+                        </div>
+                        <div class="mentor-stats">
+                            <div class="stat">
+                                <i class="fas fa-code-branch"></i>
+                                8+ Years Experience
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-users"></i>
+                                200+ Students
+                            </div>
+                        </div>
+                        <div class="mentor-skills">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">WebGL</span>
+                        </div>
+                        <p class="mentor-bio">
+                            Specialized in modern frontend architectures and performance optimization. 
+                            Led development teams at Google and contributed to Chrome DevTools.
+                        </p>
+                        <div class="mentor-achievements">
+                            <div class="achievement">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Google_Chrome.svg/64px-Google_Chrome.svg.png" alt="Chrome" class="achievement-icon">
+                                Chrome DevTools Contributor
+                            </div>
+                            <div class="achievement">
+                                <img src="https://reactjs.org/favicon.ico" alt="React" class="achievement-icon">
+                                React Core Team Member
+                            </div>
+                        </div>
+                        <button class="book-session-btn">
+                            <i class="fas fa-calendar-check"></i>
+                            Book a Session
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Backend Mentor -->
+                <article class="mentor-card" data-category="backend">
+                    <div class="mentor-image">
+                        <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=500&q=80" alt="Alex Rodriguez">
+                        <div class="mentor-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            Security Expert
+                        </div>
+                    </div>
+                    <div class="mentor-info">
+                        <div class="mentor-header">
+                            <h3>Alex Rodriguez</h3>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                4.8 (93 reviews)
+                            </span>
+                        </div>
+                        <div class="mentor-title">
+                            <img src="https://www.amazon.com/favicon.ico" alt="Amazon" class="company-icon">
+                            Principal Engineer at AWS
+                        </div>
+                        <div class="mentor-stats">
+                            <div class="stat">
+                                <i class="fas fa-server"></i>
+                                12+ Years Experience
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-users"></i>
+                                150+ Students
+                            </div>
+                        </div>
+                        <div class="mentor-skills">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Kubernetes</span>
+                        </div>
+                        <p class="mentor-bio">
+                            Cloud architecture expert specializing in scalable systems. 
+                            Author of "Cloud Native Patterns" and AWS certified solutions architect.
+                        </p>
+                        <div class="mentor-achievements">
+                            <div class="achievement">
+                                <img src="https://aws.amazon.com/favicon.ico" alt="AWS" class="achievement-icon">
+                                AWS Community Builder
+                            </div>
+                            <div class="achievement">
+                                <img src="https://www.docker.com/favicon.ico" alt="Docker" class="achievement-icon">
+                                Docker Captain
+                            </div>
+                        </div>
+                        <button class="book-session-btn">
+                            <i class="fas fa-calendar-check"></i>
+                            Book a Session
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Full Stack Mentor -->
+                <article class="mentor-card" data-category="fullstack">
+                    <div class="mentor-image">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&q=80" alt="Sarah Miller">
+                        <div class="mentor-badge">
+                            <i class="fas fa-rocket"></i>
+                            Startup Advisor
+                        </div>
+                    </div>
+                    <div class="mentor-info">
+                        <div class="mentor-header">
+                            <h3>Sarah Miller</h3>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                4.8 (93 reviews)
+                            </span>
+                        </div>
+                        <div class="mentor-title">
+                            <img src="https://www.google.com/favicon.ico" alt="Google" class="company-icon">
+                            Tech Lead at Amazon
+                        </div>
+                        <div class="mentor-stats">
+                            <div class="stat">
+                                <i class="fas fa-code-branch"></i>
+                                10+ Years Experience
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-users"></i>
+                                150+ Students
+                            </div>
+                        </div>
+                        <div class="mentor-skills">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">AWS</span>
+                        </div>
+                        <p class="mentor-bio">
+                            Full stack developer with expertise in backend and frontend technologies. 
+                            Led projects at Amazon and contributed to the development of AWS services.
+                        </p>
+                        <div class="mentor-achievements">
+                            <div class="achievement">
+                                <img src="https://aws.amazon.com/favicon.ico" alt="AWS" class="achievement-icon">
+                                AWS Community Builder
+                            </div>
+                            <div class="achievement">
+                                <img src="https://reactjs.org/favicon.ico" alt="React" class="achievement-icon">
+                                React Core Team Member
+                            </div>
+                        </div>
+                        <button class="book-session-btn">
+                            <i class="fas fa-calendar-check"></i>
+                            Book a Session
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-mentor">
+        <div class="container">
+            <h2>Why Choose Our Mentors?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Real-World Experience</h3>
+                    <p>Learn from developers who work at top tech companies</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-users"></i>
+                    <h3>1-on-1 Sessions</h3>
+                    <p>Get personalized attention and feedback</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Project Reviews</h3>
+                    <p>Get expert feedback on your code and projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Modal -->
+    <div class="modal" id="bookingModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Book a Mentoring Session</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="date">Select Date</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Select Time</label>
+                    <select id="time" required>
+                        <option value="">Choose a time slot</option>
+                        <option value="9">9:00 AM</option>
+                        <option value="10">10:00 AM</option>
+                        <option value="11">11:00 AM</option>
+                        <option value="14">2:00 PM</option>
+                        <option value="15">3:00 PM</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="topic">What would you like to learn?</label>
+                    <textarea id="topic" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">CodeMentor</div>
+                    <p>Expert guidance for aspiring developers</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="../">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="pricing.html">Pricing</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>hello@codementor.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js" defer></script>
+</body>
+</html> 
