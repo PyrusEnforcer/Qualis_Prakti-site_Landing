@@ -103,9 +103,9 @@ const App = {
         if (!toggle) return;
 
         const prices = {
-            starter: { monthly: 199, yearly: 1908 },
-            pro: { monthly: 399, yearly: 3828 },
-            expert: { monthly: 699, yearly: 6708 }
+            starter: { monthly: 500, yearly: 4800 },
+            pro: { monthly: 650, yearly: 6264},
+            expert: { monthly: 800, yearly: 7680 }
         };
 
         toggle.addEventListener('change', function() {
